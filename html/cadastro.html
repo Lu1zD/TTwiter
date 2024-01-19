@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTwiter Cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="divgeral2">
+        <div class="quadrado2">
+            <h5>Cadastro</h5> 
+            <div class="digitar">
+                <fieldset class="borda">
+                  <legend class="legenda">Nome</legend>
+                  <label>
+                     <input class="input" id="Nome" placeholder="Nome" type="text"></input>
+                 </label>
+              </fieldset>
+            </div>
+            <div class="digitar">
+                <fieldset class="borda">
+                  <legend class="legenda">Email</legend>
+                  <label>
+                     <input class="input" id="Email" placeholder="example@email.com" type="text"></input>
+                 </label>
+              </fieldset>
+            </div>
+            <div class="digitar">
+                <fieldset class="borda">
+                  <legend class="legenda">Data de nascimento</legend>
+                  <label>
+                     <input class="input" id="data" placeholder="xx/xx/xxxx" type="text"></input>
+                 </label>
+              </fieldset>
+            </div>
+            <div class="digitar">
+                <fieldset class="borda">
+                  <legend class="legenda">Senha</legend>
+                  <label>
+                     <div class="alinhar">
+                         <input class="input" placeholder="●●●●●●●●●" type="password" ></input>
+                          <div class="olho">
+                             <img src="../img/Olho.png">
+                          </div>
+                     </div>
+                   </label>
+                </fieldset>
+            </div>
+            <div class="digitar">
+                <fieldset class="borda">
+                  <legend class="legenda">Confirmar Senha</legend>
+                  <label>
+                     <div class="alinhar">
+                         <input class="input" placeholder="●●●●●●●●●" type="password" ></input>
+                          <div class="olho">
+                             <img src="../img/Olho.png">
+                          </div>
+                     </div>
+                   </label>
+                </fieldset>
+            </div>
+            <div class="termosecondicoes">
+              <input id="checkbox" type="checkbox">Li e estou de acordo com os <u class="textoazul">Termos</u> e <u class="textoazul">Condições de uso</u></input>
+            </div>
+            <div class="botao">
+                <input id="cadastrar" type="submit" value="Cadastrar"></input>
+                <input id="fazerlogin" type="submit" value="Fazer Login"></input>
+            </div>
+        </div>
+        <div class="imagem">
+          <img src="../img/Logo TT.png">
+        </div>
+    </div>
+</body>
+<script type="module" src="../java/mudardepagina.js"></script>
+</html>

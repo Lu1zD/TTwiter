@@ -1,0 +1,357 @@
+body{
+    background-color: rgba(34, 34,34,1); 
+    width: Fixed (1,440px);
+    height: Fixed (1,024px);
+    
+}
+.divgeral{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.imagem{
+    width: 293px;
+    height: 304px;
+    color: rgba(244, 244, 244,1);
+}
+.quadrado{
+    background-color: white;
+    width: 497px;
+    height: 541px;
+    padding: 25px;
+    border-radius: 20px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+h5{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;   
+}
+.digitar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.borda{
+    width: 400px;
+    height: Hug 50px;
+    top: 7.5px;
+    padding: 13px, 15px, 13px, 15px;
+    border-radius: 6px;
+    gap: 8px;
+
+}
+.legenda{
+    text-align: start;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+}
+.alinhar{
+    display:flex;
+}
+.olho{
+    width: 25px;
+    height: 25px;
+    padding-left: 75px;
+}
+.input{
+    width:300px;
+    height:24px;
+    outline: none;
+    border: none;
+}
+.esquecisenha{
+    align-self: end;
+    padding-right: 42px;
+}
+#esquecisenha{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color: rgba(16, 95, 116, 1);
+}
+.botao{
+    text-align: center;
+}
+#botao{
+    width: 427.2px;
+height: 49px;
+padding: 15px, 20px, 15px, 20px;
+border-radius: 8px;
+gap: 10px;
+background-color: rgba(16,95,116,1);
+color: white;
+outline: none;
+border: none;
+cursor: pointer;
+}
+#registrar{
+    color: rgba(16,95,116,1);
+    background-color: rgba(242,242,242,0);
+    width: 427.2px;
+    height: 49px;
+    padding: 15px, 20px, 15px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+.textoazul{
+    color: rgba(16, 95, 116, 1);
+}
+/*Tela de cadastro*/
+.divgeral2{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap-reverse;
+}
+.quadrado2{
+    background-color: white;
+    width: 497px;
+    height: 717px;
+    padding: 25px;
+    border-radius: 20px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 2%;
+    flex-wrap:wrap-reverse;
+}
+.termosecondicoes{
+    display: flex;
+}
+#checkbox{
+    cursor: pointer;
+}
+#cadastrar{
+    width: 427.2px;
+height: 49px;
+padding: 15px, 20px, 15px, 20px;
+border-radius: 8px;
+gap: 10px;
+background-color: rgba(16,95,116,1);
+color: white;
+outline: none;
+border: none;
+cursor: pointer;
+}
+#fazerlogin{
+    color: rgba(16,95,116,1);
+    background-color: rgba(242,242,242,0);
+    width: 427.2px;
+    height: 49px;
+    padding: 15px, 20px, 15px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+/*Tela principal*/
+.geral{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12.6%;
+    width:100%;
+    background-color:rgba(34, 34,34,1);
+}
+
+.imagem2{
+     width: 60px;
+     height: 62px;
+     color: rgba(244, 244, 244,1);
+}
+.lupa{
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+}
+.borda2{
+    height: Hug 50px;
+    width:60%;
+    top: 7.5px;
+    padding: 13px, 15px, 13px, 15px;
+    border-radius: 25px;
+    gap: 8px;
+    background-color: rgba(72, 72, 72, 1);
+    border: none;
+    flex-shrink: 3;
+
+}
+.pesquisar{
+    color:rgba(255, 255, 255, 0.5);
+    width:100%;
+    height:24px;
+    outline: none;
+    border: none;
+    background:none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.usuario{
+     display: flex;
+     align-items: center;
+     padding-right: 45px;
+}
+#usuario{
+    padding-right: 23px;
+    color:rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.esquerda{
+height:87.4% ;
+    
+}
+.icones{
+     display: flex;
+     align-items: center;
+}
+.textoicones{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+padding-left: 23px;
+}
+.Meio{
+    display: flex;
+    flex-direction: column;
+    height:87.4%;
+}
+.bordastatus{
+    width: 95%;
+    height: 142px;
+    top: 148px;
+    left: 319px;
+    border-color: rgba(76, 92, 104, 1);
+    outline: none;
+
+}
+.alinhar2{
+    display:flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.Imagemstatus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+}
+.status{
+    width:100%;
+    height:18px;
+    outline: none;
+    border: none;
+    background:none;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(242, 242, 242, 1);
+}
+.status::placeholder{
+    color: rgba(242, 242, 242, 1);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+#botao2{
+    width: 98px;
+height: 40px;
+top: 87px;
+left: 537px;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+background-color: rgba(25, 133, 161, 1);
+color: black;
+
+}
+.bordapoust{
+    width: 95%;
+    height: 30%;
+    border-color: rgba(76, 92, 104, 1);
+    outline: none;
+}
+.descricao{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+.poust{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width:100%;
+    height: 100%;
+}
+.fotopoust{
+    width: 95%;
+    height: 65,5%;
+    padding-left: 3%;
+    padding-right: 79px;
+}
+.direita{
+    height:87.4%;
+   }
+.adicionar{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: end;
+color: rgba(34, 162, 242, 1);
+}
